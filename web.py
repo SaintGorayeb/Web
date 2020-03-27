@@ -10,5 +10,6 @@ def home():
     soma = somar(5,2)
     return 'Hello World'
 
-app.run(debug = False)
+if __name__ == "__main__":
+    app.run(debug = False)
 
