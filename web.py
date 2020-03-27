@@ -11,5 +11,5 @@ def home():
     soma = somar(5,2)
     return 'Hello World'
 
-app.run(debug = True)
+app.run(debug = False)
 
